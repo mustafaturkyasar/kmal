@@ -3,6 +3,7 @@ import Header from "../../components/Header"
 import Head from "next/head";
 import fetch from "isomorphic-unfetch";
 import Link from "next/link";
+import absoluteUrl from "next-absolute-url";
 export default function Students({stars,files,query}) {
     return (
         <Layout>
@@ -131,19 +132,25 @@ export default function Students({stars,files,query}) {
 
 Students.getInitialProps = async ({ req,query }) => {
     // const res = await fetch('/api/files')
+    const { protocol, host } = absoluteUrl(req, 'localhost:3000')
+
+
    let response ;
+
     if(!query.type)
     {
-         response = await fetch('http://localhost:3000/api/student/files?id=' + query.id);
+
+         response = await fetch( `${protocol}//${host}/api/student/files?id=${query.id}`);
     }
     else
     {
-         response = await fetch('http://localhost:3000/api/student/filesbytype?id=' + query.id + '&type='+ query.type);
+
+         response = await fetch(`${protocol}//${host}/api/student/filesbytype?id=${query.id}&type=${query.typt}`);
     }
 
 
     const json = await response.json()
-    const response2 = await fetch('http://localhost:3000/api/student/filetype');
+    const response2 = await fetch(`${protocol}//${host}/api/student/filetype`);
     const json2 = await response2.json()
     return { stars: json,files:json2,query }
 }
