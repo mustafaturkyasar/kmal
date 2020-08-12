@@ -90,18 +90,18 @@ export default function present(query) {
                                 </div>
 
                                 <div className="col-lg-4 hero_box_col">
-                                    <div className="hero_box d-flex flex-row align-items-center justify-content-start">
-                                        <img src="/images/books.svg" className="svg" alt="" />
-                                        <div className="hero_box_content">
-                                            <h2 className="hero_box_title">
-                                                Uzaktan Canlı Matemetik Özel Ders
-                                            </h2>
-                                            <a href="courses.html" className="hero_box_link">
-                                                Detaylar
-                                            </a>
-                                        </div>
+                                <div className="hero_box d-flex flex-row align-items-center justify-content-start">
+                                    <img src="/images/books.svg" className="svg" alt="" />
+                                    <div className="hero_box_content">
+                                        <h2 className="hero_box_title">
+                                            Uzaktan Canlı Matemetik Özel Ders
+                                        </h2>
+                                        <a href="courses.html" className="hero_box_link">
+                                            Detaylar
+                                        </a>
                                     </div>
                                 </div>
+                            </div>
 
                                 <div className="col-lg-4 hero_box_col">
                                     <div className="hero_box d-flex flex-row align-items-center justify-content-start">

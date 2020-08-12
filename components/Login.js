@@ -49,13 +49,8 @@ class Login extends React.Component {
   render() {
     return (
       <div className="col-lg-6 nopadding">
-        <div className="search_section d-flex flex-column align-items-center justify-content-center">
-          <div
-            className="search_background"
-            style={{
-              backgroundImage: "url('/images/search_background.jpg')",
-            }}
-          ></div>
+        <div className=" d-flex flex-column align-items-center justify-content-center">
+
           <div className="search_content text-center">
             <h1 className="search_title">Öğrenci Girişi</h1>
             <input

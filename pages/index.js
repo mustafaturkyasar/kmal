@@ -1,4 +1,3 @@
-
 import Layout from "../components/Layout";
 import Login from "../components/Login";
 import Head from "next/head";
@@ -8,17 +7,9 @@ export default function HomePage() {
   return (
       <Layout>
         <Head>
-          <link
-              rel="stylesheet"
-              type="text/css"
-              href="styles/news_post_styles.css"
-          />
-          <link
-              rel="stylesheet"
-              type="text/css"
-              href="styles/news_post_responsive.css"
-          />
+          <script src="/js/custom.js"></script>
         </Head>
+
         <div className="super_container">
           <div className="register">
             <div className="container-fluid">
@@ -31,45 +22,63 @@ export default function HomePage() {
                           backgroundImage: "url('/kemal/images/news_background.jpg')",
                         }}
                     />
-                    <div className="search_content text-center">
-                      <br /> <br /> <br />
-                      <br /> <br /> <br /> <br /> <br />
-                      <br /> <br /> <br /> <br /> <br />
-                      <br /> <br /> <br />
-                      <br /> <br /> <br /> <br /> <br />
-                      <br /> <br /> <br /> <br /> <br />
-                      <br /> <br /> <br />
-                      <br /> <br /> <br /> <br /> <br />
 
-                      <div className="home_content " style={{marginBottom:500}}>
-                        <div className=" text-center search_content  mx-auto trans_200">
-                          <h1 style={{ fontSize: 35 }}> Matematik Özel Ders</h1>
-                        </div>
-                      </div>
-                      <div className="home_content " style={{marginBottom:300}}>
-                        <div className=" text-center search_content  mx-auto trans_200">
-                          <h1 style={{ fontSize: 35 }}> Uzaktan Canlı Matematik Özel Ders</h1>
-                        </div>
-                      </div>
-                      <br />
-                      <div className="home_content "style={{marginBottom:100}}>
-                        <div className=" text-center search_content  mx-auto trans_200">
-                          <h1 style={{ fontSize: 35 }}> Öğrenci Koçluğu</h1>
-                        </div>
-                      </div>
-                      <br />
-                      <br/>
-                      <br />
-                      <br/>
-                      <br />
-                      <br/>
+                    <div className="logo_container" style={{marginTop : 40}}>
+                      <div className="logo">
+                        <img src="/images/logo.png" alt="dasd" />
+                        <span>Kemal Balta</span>
 
-
+                      </div>
                     </div>
+
+                    <div className="col-lg-10 hero_box_col" style={{marginTop : 40}}>
+                      <div className="hero_box d-flex flex-row align-items-center justify-content-start">
+                        <img src="/images/earth-globe.svg" className="svg" alt="" />
+                        <div className="hero_box_content">
+                          <h2 className="hero_box_title">Matematik Özel Ders</h2>
+
+                        </div>
+                      </div>
+                    </div>
+                    <br/> <br/>
+                    <div className="col-lg-10 hero_box_col">
+                      <div className="hero_box d-flex flex-row align-items-center justify-content-start">
+                        <img src="/images/books.svg" className="svg" alt="" />
+                        <div className="hero_box_content">
+                          <h2 className="hero_box_title">
+                            Uzaktan Canlı Matemetik Özel Ders
+                          </h2>
+
+                        </div>
+                      </div>
+                    </div>
+                    <br />   <br />
+                    <div className="col-lg-10 hero_box_col">
+                      <div className="hero_box d-flex flex-row align-items-center justify-content-start">
+                        <img src="/images/professor.svg" className="svg" alt="" />
+                        <div className="hero_box_content">
+                          <h2 className="hero_box_title">Koçluk Sistemi</h2>
+
+                        </div>
+                      </div>
+                    </div>
+                    <br />
+                    <br/>
+                    <br />
+                    <br/>
+                    <br />
+                    <br/>
+
+
                   </div>
+
                 </div>
-                <Login></Login>
+                <div  style={{marginTop : 300, marginLeft : 220}}>
+                  <Login ></Login>
+                </div>
+
               </div>
+
             </div>
           </div>
         </div>
