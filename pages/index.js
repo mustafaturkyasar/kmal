@@ -15,7 +15,7 @@ export default function HomePage() {
             <div className="container-fluid">
               <div className="row row-eq-height">
                 <div className="col-lg-6 nopadding">
-                  <div className="search_section d-flex flex-column align-items-center justify-content-center" style = {{width:"40%"}}>
+                  <div className="search_section d-flex flex-column align-items-center justify-content-center" >
                     <div
                         className="search_background"
                         style={{
@@ -31,19 +31,37 @@ export default function HomePage() {
                       </div>
                     </div>
 
-                  
-                    <div className="col-lg-10 hero_box_col" >
+
+
+
+
                       <div className="hero_box d-flex flex-row align-items-center justify-content-start">
                         <img src="/images/professor.svg" className="svg" alt="" />
                         <div className="hero_box_content">
                           <h2 className="hero_box_title">Koçluk Sistemi</h2>
 
                         </div>
-                      </div>
+
                     </div>
 
+                    <div className="hero_box d-flex flex-row align-items-center justify-content-start">
+                      <img src="/images/professor.svg" className="svg" alt="" />
+                      <div className="hero_box_content">
+                        <h2 className="hero_box_title">Koçluk Sistemi</h2>
 
+                      </div>
 
+                    </div>
+
+                    <div className="hero_box d-flex flex-row align-items-center justify-content-start">
+                      <img src="/images/professor.svg" className="svg" alt="" />
+                      <div className="hero_box_content">
+                        <h2 className="hero_box_title">Koçluk Sistemi</h2>
+
+                      </div>
+
+                    </div>
+                   
                   </div>
 
                 </div>
