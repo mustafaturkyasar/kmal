@@ -54,9 +54,10 @@ export default function Header(ctx) {
         </div>
 
         <div className="header_side d-flex flex-row justify-content-around align-items-center">
-          <img src="/images/youtube.svg" alt="" />
+         <a href="https://www.youtube.com/user/kemalbaltaa"><img src="/images/youtube.svg" alt="" /></a>
 
-          <img src="/images/instagram.svg" alt="" />
+        <a href = "https://www.instagram.com/kemalbalta_matematik/">  <img src="/images/instagram.svg" alt="" /></a>
+          
           <img src="/images/phone-call.svg" alt="" />
           <span>0532 210 11 47</span>
         </div>
