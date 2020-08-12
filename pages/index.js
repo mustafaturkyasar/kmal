@@ -23,7 +23,7 @@ export default function HomePage() {
                         }}
                     />
 
-                    <div className="logo_container" style={{marginTop : 40}}>
+                    <div className="logo_container" style={{marginTop : "10%"}}>
                       <div className="logo">
                         <img src="/images/logo.png" alt="dasd" />
                         <span>Kemal Balta</span>
@@ -31,7 +31,7 @@ export default function HomePage() {
                       </div>
                     </div>
 
-                    <div className="col-lg-10 hero_box_col" style={{marginTop : 40}}>
+                    <div className="col-lg-10 hero_box_col" style={{marginTop : "5%"}}>
                       <div className="hero_box d-flex flex-row align-items-center justify-content-start">
                         <img src="/images/earth-globe.svg" className="svg" alt="" />
                         <div className="hero_box_content">
@@ -40,8 +40,8 @@ export default function HomePage() {
                         </div>
                       </div>
                     </div>
-                    <br/> <br/>
-                    <div className="col-lg-10 hero_box_col">
+
+                    <div className="col-lg-10 hero_box_col" style={{marginTop : "5%"}}>
                       <div className="hero_box d-flex flex-row align-items-center justify-content-start">
                         <img src="/images/books.svg" className="svg" alt="" />
                         <div className="hero_box_content">
@@ -52,8 +52,8 @@ export default function HomePage() {
                         </div>
                       </div>
                     </div>
-                    <br />   <br />
-                    <div className="col-lg-10 hero_box_col">
+
+                    <div className="col-lg-10 hero_box_col" style={{marginTop : "5%"}}>
                       <div className="hero_box d-flex flex-row align-items-center justify-content-start">
                         <img src="/images/professor.svg" className="svg" alt="" />
                         <div className="hero_box_content">
@@ -73,7 +73,7 @@ export default function HomePage() {
                   </div>
 
                 </div>
-                <div  style={{marginTop : 300, marginLeft : 220}}>
+                <div  style={{marginTop : "20%", marginLeft : "10%"}}>
                   <Login ></Login>
                 </div>
 
