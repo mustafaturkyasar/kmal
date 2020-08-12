@@ -15,7 +15,7 @@ export default function HomePage() {
             <div className="container-fluid">
               <div className="row row-eq-height">
                 <div className="col-lg-6 nopadding">
-                  <div className="search_section d-flex flex-column align-items-center justify-content-center">
+                  <div className="search_section d-flex flex-column align-items-center justify-content-center" style = {{height:"100%"}}>
                     <div
                         className="search_background"
                         style={{
@@ -23,7 +23,7 @@ export default function HomePage() {
                         }}
                     />
 
-                    <div className="logo_container" style={{marginTop : "10%"}}>
+                    <div className="logo_container" >
                       <div className="logo">
                         <img src="/images/logo.png" alt="dasd" />
                         <span>Kemal Balta</span>
@@ -31,29 +31,29 @@ export default function HomePage() {
                       </div>
                     </div>
 
-                    <div className="col-lg-10 hero_box_col" style={{marginTop : "5%"}}>
-                      <div className="hero_box d-flex flex-row align-items-center justify-content-start">
-                        <img src="/images/earth-globe.svg" className="svg" alt="" />
-                        <div className="hero_box_content">
-                          <h2 className="hero_box_title">Matematik Özel Ders</h2>
+                    {/*<div className="col-lg-10 hero_box_col" >*/}
+                    {/*  <div className="hero_box d-flex flex-row align-items-center justify-content-start">*/}
+                    {/*    <img src="/images/earth-globe.svg" className="svg" alt="" />*/}
+                    {/*    <div className="hero_box_content">*/}
+                    {/*      <h2 className="hero_box_title">Matematik Özel Ders</h2>*/}
 
-                        </div>
-                      </div>
-                    </div>
+                    {/*    </div>*/}
+                    {/*  </div>*/}
+                    {/*</div>*/}
 
-                    <div className="col-lg-10 hero_box_col" style={{marginTop : "5%"}}>
-                      <div className="hero_box d-flex flex-row align-items-center justify-content-start">
-                        <img src="/images/books.svg" className="svg" alt="" />
-                        <div className="hero_box_content">
-                          <h2 className="hero_box_title">
-                            Uzaktan Canlı Matemetik Özel Ders
-                          </h2>
+                    {/*<div className="col-lg-10 hero_box_col" >*/}
+                    {/*  <div className="hero_box d-flex flex-row align-items-center justify-content-start">*/}
+                    {/*    <img src="/images/books.svg" className="svg" alt="" />*/}
+                    {/*    <div className="hero_box_content">*/}
+                    {/*      <h2 className="hero_box_title">*/}
+                    {/*        Uzaktan Canlı Matemetik Özel Ders*/}
+                    {/*      </h2>*/}
 
-                        </div>
-                      </div>
-                    </div>
+                    {/*    </div>*/}
+                    {/*  </div>*/}
+                    {/*</div>*/}
 
-                    <div className="col-lg-10 hero_box_col" style={{marginTop : "5%"}}>
+                    <div className="col-lg-10 hero_box_col" >
                       <div className="hero_box d-flex flex-row align-items-center justify-content-start">
                         <img src="/images/professor.svg" className="svg" alt="" />
                         <div className="hero_box_content">
@@ -62,12 +62,7 @@ export default function HomePage() {
                         </div>
                       </div>
                     </div>
-                    <br />
-                    <br/>
-                    <br />
-                    <br/>
-                    <br />
-                    <br/>
+
 
 
                   </div>
