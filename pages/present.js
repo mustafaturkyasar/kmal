@@ -10,9 +10,7 @@ export default function present(query) {
 
             </Head>
             <div className="super_container">
-                {
-                    console.log(query)
-                }
+
                 <Header id={query.query.id}></Header>
 
                 <div className="home">

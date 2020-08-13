@@ -15,16 +15,18 @@ class Login extends React.Component {
        pass: this.state.pass
      })
          .then(function (response) {
-             console.log(response.data[0].id)
+
             // Router.push('/present')
             if (response.data.length === 0)
                alert('hata')
             else
             {
-                Router.push({
+                window.location.href = 'http://kemalbalta.com/present?id=9'
+
+                 Router.push({
                     pathname: '/present',
                     query: { id : response.data[0].id },
-                })
+                 })
 
 
             }

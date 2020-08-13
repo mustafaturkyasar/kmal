@@ -19,7 +19,7 @@ export default function HomePage() {
                     <div
                         className="search_background"
                         style={{
-                          backgroundImage: "url('/kemal/images/news_background.jpg')",
+                          backgroundImage: "url('/images/news_background.jpg')",
                         }}
                     />
 

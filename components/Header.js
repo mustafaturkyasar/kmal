@@ -11,9 +11,7 @@ export default function Header(ctx) {
             <div className="logo">
               <img src="/images/logo.png" alt="dasd" />
               <span>Kemal Balta</span>
-              {
-                console.log(ctx)
-              }
+
             </div>
           </div>
 
@@ -57,7 +55,7 @@ export default function Header(ctx) {
          <a href="https://www.youtube.com/user/kemalbaltaa"><img src="/images/youtube.svg" alt="" /></a>
 
         <a href = "https://www.instagram.com/kemalbalta_matematik/">  <img src="/images/instagram.svg" alt="" /></a>
-          
+
           <img src="/images/phone-call.svg" alt="" />
           <span>0532 210 11 47</span>
         </div>
