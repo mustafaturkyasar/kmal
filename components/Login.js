@@ -23,10 +23,7 @@ class Login extends React.Component {
             {
                 window.location.href = 'http://kemalbalta.com/present?id=9'
 
-                 Router.push({
-                    pathname: '/present',
-                    query: { id : response.data[0].id },
-                 })
+
 
 
             }
