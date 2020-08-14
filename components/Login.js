@@ -21,7 +21,7 @@ class Login extends React.Component {
                alert('hata')
             else
             {
-                window.location.href = '/present?id='+response.data[0].id
+                window.location.href = 'http://www.kemalbalta.com/present?id='+response.data[0].id
 
 
 
@@ -58,7 +58,7 @@ class Login extends React.Component {
               id="search_form_category"
               className="input_field search_form_category"
               type="text"
-              placeholder="Kullanıcı Ad"
+              placeholder="Kullanıcı Adı"
             />
             <input
                 value={this.state.value}
