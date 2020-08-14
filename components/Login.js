@@ -21,7 +21,7 @@ class Login extends React.Component {
                alert('hata')
             else
             {
-                window.location.href = 'http://kemalbalta.com/present?id=9'
+                window.location.href = '/present?id='+response.data[0].id
 
 
 

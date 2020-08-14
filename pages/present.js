@@ -1,6 +1,7 @@
 import Layout from "../components/Layout";
 import Header from "../components/Header";
 import Head from "next/head";
+import Link from "next/link";
 
 export default function present(query) {
     return (
@@ -80,9 +81,14 @@ export default function present(query) {
                                         <img src="/images/earth-globe.svg" className="svg" alt="" />
                                         <div className="hero_box_content">
                                             <h2 className="hero_box_title">Matematik Özel Ders</h2>
-                                            <a href="courses.html" className="hero_box_link">
-                                                Detaylar
-                                            </a>
+                                            <Link href={`/MatematikDers?id=${query.query.id}`}>
+
+                                                <a href="courses.html" className="hero_box_link">
+                                                    Detaylar
+                                                </a>
+
+                                            </Link>
+
                                         </div>
                                     </div>
                                 </div>
@@ -94,9 +100,10 @@ export default function present(query) {
                                         <h2 className="hero_box_title">
                                             Uzaktan Canlı Matemetik Özel Ders
                                         </h2>
-                                        <a href="courses.html" className="hero_box_link">
-                                            Detaylar
-                                        </a>
+
+                                        <Link href={`/UzaktanCanliDers?id=${query.query.id}`}>
+                                            <a href="" className="hero_box_link">Detaylar</a>
+                                        </Link>
                                     </div>
                                 </div>
                             </div>
@@ -106,9 +113,9 @@ export default function present(query) {
                                         <img src="/images/professor.svg" className="svg" alt="" />
                                         <div className="hero_box_content">
                                             <h2 className="hero_box_title">Koçluk Sistemi</h2>
-                                            <a href="teachers.html" className="hero_box_link">
-                                                Detaylar
-                                            </a>
+                                            <Link href={`/KoclukSistemi?id=${query.query.id}`}>
+                                                <a href="" className="hero_box_link">Detaylar</a>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
