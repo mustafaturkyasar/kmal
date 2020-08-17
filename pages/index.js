@@ -34,7 +34,7 @@ export default function HomePage() {
 
 
                     <div className="hero_box d-flex flex-row align-items-center justify-content-start" style={{height : "15%" ,marginTop:"5%" , marginBottom :"2%"}}>
-                      <img src="/images/earth-globe.svg" className="svg" alt="" />
+                      <img src="/images/books.svg" className="svg" alt="" />
                       <div className="hero_box_content">
                         <h2 className="hero_box_title">Matematik Özel Ders</h2>
 
@@ -42,23 +42,24 @@ export default function HomePage() {
                     </div>
 
 
-                    <div className="hero_box d-flex flex-row align-items-center justify-content-start" style={{height: "15%"}}>
+
+                    <div className="hero_box d-flex flex-row align-items-center justify-content-start" style={{height : "15%"}}>
                       <img src="/images/professor.svg" className="svg" alt="" />
-                      <div className="hero_box_content">
-                        <h2 className="hero_box_title">Koçluk Sistemi</h2>
-
-                      </div>
-
-                    </div>
-
-                    <div className="hero_box d-flex flex-row align-items-center justify-content-start" style={{marginTop : "2%",height : "15%"}}>
-                      <img src="/images/books.svg" className="svg" alt="" />
                       <div className="hero_box_content">
                         <h2 className="hero_box_title">
                           Uzaktan Canlı Matemetik Özel Ders
                         </h2>
 
                       </div>
+                    </div>
+
+                    <div className="hero_box d-flex flex-row align-items-center justify-content-start" style={{marginTop : "2%",height : "15%"}}>
+                      <img src="/images/earth-globe.svg" className="svg" alt="" />
+                      <div className="hero_box_content">
+                        <h2 className="hero_box_title">Koçluk Sistemi</h2>
+
+                      </div>
+
                     </div>
 
                   </div>

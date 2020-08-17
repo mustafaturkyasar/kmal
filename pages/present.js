@@ -78,7 +78,8 @@ export default function present(query) {
                             <div className="row">
                                 <div className="col-lg-4 hero_box_col">
                                     <div className="hero_box d-flex flex-row align-items-center justify-content-start">
-                                        <img src="/images/earth-globe.svg" className="svg" alt="" />
+                                        <img src="/images/books.svg" className="svg" alt="" />
+                                        {/*<img src="/images/earth-globe.svg" className="svg" alt="" />*/}
                                         <div className="hero_box_content">
                                             <h2 className="hero_box_title">Matematik Özel Ders</h2>
                                             <Link href={`/MatematikDers?id=${query.query.id}`}>
@@ -95,7 +96,8 @@ export default function present(query) {
 
                                 <div className="col-lg-4 hero_box_col">
                                 <div className="hero_box d-flex flex-row align-items-center justify-content-start">
-                                    <img src="/images/books.svg" className="svg" alt="" />
+                                    <img src="/images/professor.svg" className="svg" alt="" />
+                                    {/*<img src="/images/books.svg" className="svg" alt="" />*/}
                                     <div className="hero_box_content">
                                         <h2 className="hero_box_title">
                                             Uzaktan Canlı Matemetik Özel Ders
@@ -110,7 +112,8 @@ export default function present(query) {
 
                                 <div className="col-lg-4 hero_box_col">
                                     <div className="hero_box d-flex flex-row align-items-center justify-content-start">
-                                        <img src="/images/professor.svg" className="svg" alt="" />
+                                        <img src="/images/earth-globe.svg" className="svg" alt="" />
+                                        {/*<img src="/images/professor.svg" className="svg" alt="" />*/}
                                         <div className="hero_box_content">
                                             <h2 className="hero_box_title">Koçluk Sistemi</h2>
                                             <Link href={`/KoclukSistemi?id=${query.query.id}`}>

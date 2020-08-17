@@ -145,7 +145,7 @@ Students.getInitialProps = async ({ req,query }) => {
     else
     {
 
-         response = await fetch(`${protocol}//${host}/api/student/filesbytype?id=${query.id}&type=${query.typt}`);
+         response = await fetch(`${protocol}//${host}/api/student/filesbytype?id=${query.id}&type=${query.type}`);
     }
 
 
