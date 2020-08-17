@@ -31,14 +31,14 @@ export default function Header(ctx) {
 
                 <Link href={`/MatematikDers?id=${ctx.id}`}>
                   <li className="main_nav_item">
-                    <a href="">Kurslarım</a>
+                    <a href="">Detaylar</a>
                   </li>
                 </Link>
 
                    <Link href={`/student/${ctx.id}?id=${ctx.id}`}>
 
                   <li className="main_nav_item">
-                  <a href="/MatematikDers">Öğrenci Dosya</a>
+                  <a href="/MatematikDers">Öğrenci Dosyası</a>
                   </li>
 
                   </Link>
