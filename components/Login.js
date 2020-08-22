@@ -21,11 +21,8 @@ class Login extends React.Component {
                alert('hata')
             else
             {
+                 //Router.push('/present?id='+ response.data[0].id)
                 window.location.href = 'http://www.kemalbalta.com/present?id='+response.data[0].id
-
-
-
-
             }
 
 

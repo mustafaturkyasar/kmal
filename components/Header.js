@@ -73,24 +73,27 @@ export default function Header(ctx) {
         <div className="menu_inner menu_mm">
           <div className="menu menu_mm">
             <ul className="menu_list menu_mm">
-              <li className="menu_item menu_mm">
-                <a href="#">Home</a>
-              </li>
-              <li className="menu_item menu_mm">
-                <a href="#">About us</a>
-              </li>
-              <li className="menu_item menu_mm">
-                <a href="courses.html">Courses</a>
-              </li>
-              <li className="menu_item menu_mm">
-                <a href="elements.html">Elements</a>
-              </li>
-              <li className="menu_item menu_mm">
-                <a href="news.html">News</a>
-              </li>
-              <li className="menu_item menu_mm">
-                <a href="contact.html">Contact</a>
-              </li>
+              <Link href={`/present?id=${ctx.id}`}>
+                <li className="menu_item menu_mm">
+
+                  <a href={`/present?id=${ctx.id}`}>AnaSayfa</a>
+                </li>
+              </Link>
+              <Link href={`/MatematikDers?id=${ctx.id}`}>
+                <li className="menu_item menu_mm">
+                  <a href="">Detaylar</a>
+                </li>
+              </Link>
+              <Link href={`/student/${ctx.id}?id=${ctx.id}`}>
+
+                <li className="menu_item menu_mm">
+                  <a href="/MatematikDers">Öğrenci Dosyası</a>
+                </li>
+
+              </Link>
+
+
+
             </ul>
 
             <div className="menu_social_container menu_mm">
@@ -123,9 +126,7 @@ export default function Header(ctx) {
               </ul>
             </div>
 
-            <div className="menu_copyright menu_mm">
-              Colorlib All rights reserved
-            </div>
+
           </div>
         </div>
       </div>
