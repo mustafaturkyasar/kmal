@@ -15,7 +15,7 @@ export default async function handler(req, res) {
                 const result = await sql.query`select * from Ogrenci where KullaniciAd =  ${user} and Sifre =  ${pass} `
                 res.send(result.recordset)
             } catch (err) {
-                console.log(err)//dfgd
+                console.log(err)
             }
             break
 
