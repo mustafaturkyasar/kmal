@@ -77,7 +77,7 @@ export default function Students({stars,files,query}) {
                                                         <td>{e.aciklama}</td>
 
                                                         <td>
-                                                            <a href={'http://78.186.17.110/portal/' + e.resimyol}>
+                                                            <a href={'http://176.98.40.111/portal/' + e.resimyol}>
                                                                 İndir
                                                             </a>
 
