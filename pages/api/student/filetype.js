@@ -9,7 +9,7 @@ export default async function handler(req, res) {
         case 'GET':
             try {
                 // make sure that any items are correctly URL encoded in the connection string
-                await sql.connect('mssql://test:A12345a@78.186.17.110/SINIFTANIM')
+                await sql.connect('mssql://portal:22166973Td!*@176.98.40.111/SINIFTANIM')
                 const result = await sql.query`select * from dosyaTipi`
                 res.send(result.recordset)
             } catch (err) {
