@@ -13,7 +13,11 @@ export default function KoclukSistemi(query) {
                     type="text/css"
                     href="/styles/news_post_styles.css"
                 />
-               
+                <link
+                    rel="stylesheet"
+                    type="text/css"
+                    href="/styles/news_post_responsive.css"
+                />
             </Head>
             <div className="super_container">
                 <Header id={query.query.id}></Header>
