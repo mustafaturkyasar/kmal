@@ -47,7 +47,7 @@ export default function HomePage() {
                       <img src="/images/professor.svg" className="svg" alt="" />
                       <div className="hero_box_content">
                         <h2 className="hero_box_title">
-                          Uzaktan Canlı Matemetik Özel Ders
+                          Uzaktan Canlı Matematik Özel Ders
                         </h2>
 
                       </div>
