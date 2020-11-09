@@ -73,7 +73,7 @@ export default function Students({stars,files,query}) {
 
                                                 {stars.map((e, index) => (
                                                     <tr>
-                                                        <th scope="row">{index}</th>
+                                                        <th scope="row">{index + 1}</th>
                                                         <td>{e.aciklama}</td>
 
                                                         <td>

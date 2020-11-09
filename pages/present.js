@@ -100,7 +100,7 @@ export default function present(query) {
                                     {/*<img src="/images/books.svg" className="svg" alt="" />*/}
                                     <div className="hero_box_content">
                                         <h2 className="hero_box_title">
-                                            Uzaktan Canlı Matemetik Özel Ders
+                                            Uzaktan Canlı Matematik Özel Ders
                                         </h2>
 
                                         <Link href={`/UzaktanCanliDers?id=${query.query.id}`}>
