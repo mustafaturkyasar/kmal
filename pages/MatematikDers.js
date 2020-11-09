@@ -8,11 +8,7 @@ export default function MatematikDers(query) {
   return (
     <Layout>
       <Head>
-        <link
-          rel="stylesheet"
-          type="text/css"
-          href="/styles/news_post_styles.css"
-        />
+       
         <link
           rel="stylesheet"
           type="text/css"
