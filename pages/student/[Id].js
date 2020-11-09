@@ -65,7 +65,7 @@ export default function Students({stars,files,query}) {
                                                 <tr>
                                                     <th scope="col">#</th>
                                                     <th scope="col">Dosya Adı</th>
-                                                    <th scope="col">Eklenme Tarihi</th>
+                                                  
                                                     <th scope="col">İndirme Linki</th>
                                                 </tr>
                                                 </thead>
