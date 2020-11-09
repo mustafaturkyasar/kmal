@@ -7,12 +7,21 @@ import Footer from "../components/Footer";
 export default function UzaktanCanliDers(query) {
     return (
         <Layout>
-            <Head>
-                
-            </Head>
+           
             <div className="super_container">
                 <Header id={query.query.id}></Header>
-
+                <Head>
+                <link
+                    rel="stylesheet"
+                    type="text/css"
+                    href="/styles/news_post_styles.css"
+                />
+                <link
+                    rel="stylesheet"
+                    type="text/css"
+                    href="/styles/news_post_responsive.css"
+                />
+            </Head>
 
                 <div className="home">
                     <div className="home_background_container prlx_parent">
