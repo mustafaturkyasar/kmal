@@ -20,9 +20,7 @@ export default function MatematikDers(query) {
         />
       </Head>
       <div className="super_container">
-        {
-          console.log(query.query)
-        }
+      
        <Header id={query.query.id}/>
 
         <div className="home">
