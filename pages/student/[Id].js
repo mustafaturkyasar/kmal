@@ -75,7 +75,7 @@ export default function Students({stars,files,query}) {
                                                     <tr>
                                                         <th scope="row">{index + 1}</th>
                                                         <td>{e.aciklama}</td>
-                                                        <td>{e.aciklama.slice(34)}</td>
+                                                        <td>{e.resimyol.slice(34)}</td>
                                                         <td>
                                                             <a href={'http://176.98.40.103/portal/' + e.resimyol}>
                                                                 İndir
