@@ -12,7 +12,7 @@ export default async function handler(req, res) {
                 // make sure that any items are correctly URL encoded in the connection string
                 await sql.connect('mssql://portal:22166973Td!*@176.98.40.103/SINIFTANIM')
                 const result = await sql.query`select  m.ogrenciid,m.resimyol,d.aciklama from ogrenciResim m,dosyaTipi d where m.tipid = d.id
-                 and m.ogrenciid =  ${id} and d.id = ${type} `
+                 and m.ogrenciid =  ${id} and d.id = ${type} order by m.id desc`
                 res.send(result.recordset)
             } catch (err) {
                 console.log(err)
