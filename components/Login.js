@@ -10,7 +10,7 @@ class Login extends React.Component {
   };
    onLoginClick =  (e) => {
 
-       axios.post('api/student/getUser', {
+       axios.post('/api/student/getUser', {
        user: this.state.user,
        pass: this.state.pass
      })
@@ -18,7 +18,7 @@ class Login extends React.Component {
 
             // Router.push('/present')
             if (response.data.length === 0)
-               alert('hata')
+               alert('user')
             else
             {
                  //Router.push('/present?id='+ response.data[0].id)

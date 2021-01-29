@@ -10,11 +10,13 @@ export default async function handler(req, res) {
     switch (method) {
         case 'POST':
             try {
+
                 // make sure that any items are correctly URL encoded in the connection string
                 await sql.connect('mssql://portal:22166973Td!*@176.98.40.103/SINIFTANIM')
                 const result = await sql.query`select * from Ogrenci where KullaniciAd =  ${user} and Sifre =  ${pass} `
                 res.send(result.recordset)
             } catch (err) {
+
                 console.log(err)
             }
             break
