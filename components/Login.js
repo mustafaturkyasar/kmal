@@ -11,8 +11,8 @@ class Login extends React.Component {
    onLoginClick =  (e) => {
 
        axios.post('/api/student/getUser', {
-       user: this.state.user,
-       pass: this.state.pass
+       user: 'kemal',
+       pass: '1'
      })
          .then(function (response) {
 
