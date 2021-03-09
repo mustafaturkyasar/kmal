@@ -77,7 +77,8 @@ export default function Students({stars,files,query}) {
                                                         <td>{e.aciklama}</td>
                                                         <td>{e.resimyol.slice(34)}</td>
                                                         <td>
-                                                            <a href={'https://docs.google.com/viewerng/viewer?url=http://176.98.40.141/portal/' + e.resimyol}>
+
+                                                            <a href={'http://176.98.40.141/portal/' + e.resimyol}>
                                                                 İndir
                                                             </a>
 
